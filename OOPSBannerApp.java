@@ -1,15 +1,18 @@
-//OOPSBannerApp UC3 - Banner Display using String Join
+//OOPSBannerApp UC4 - BannerApp-Array_Loop
 public class OOPSBannerApp{ 
        public static void main(String[] arg){
-            System.out.println(String.join(" ", "   ***   ", "   ***   ", "******   ", "  *****  "));
-			System.out.println(String.join(" ", " **   ** ", " **   ** ", "**    ** ", " **   ** "));
-			System.out.println(String.join(" ", "**     **", "**     **", "**     **", "**       "));
-			System.out.println(String.join(" ", "**     **", "**     **", "**    ** ", " **      "));
-			System.out.println(String.join(" ", "**     **", "**     **", "******   ", "  *****  "));
-			System.out.println(String.join(" ", "**     **", "**     **", "**       ", "      ** "));
-			System.out.println(String.join(" ", "**     **", "**     **", "**       ", "       **"));
-			System.out.println(String.join(" ", " **   ** ", " **   ** ", "**       ", " **   ** "));
-			System.out.println(String.join(" ", "   ***   ", "   ***   ", "**       ", "  *****  "));
-
+		    String[] lines=new String[9]; 
+            lines[0]=String.join(" ", "   ***   ", "   ***   ", "******   ", "  *****  ");
+			lines[1]=String.join(" ", " **   ** ", " **   ** ", "**    ** ", " **   ** ");
+			lines[2]=String.join(" ", "**     **", "**     **", "**     **", "**       ");
+			lines[3]=String.join(" ", "**     **", "**     **", "**    ** ", " **      ");
+			lines[4]=String.join(" ", "**     **", "**     **", "******   ", "  *****  ");
+			lines[5]=String.join(" ", "**     **", "**     **", "**       ", "      ** ");
+			lines[6]=String.join(" ", "**     **", "**     **", "**       ", "       **");
+			lines[7]=String.join(" ", " **   ** ", " **   ** ", "**       ", " **   ** ");
+			lines[8]=String.join(" ", "   ***   ", "   ***   ", "**       ", "  *****  ");
+			for (String line : lines){
+				System.out.println(line);
+			}
        }
 }
