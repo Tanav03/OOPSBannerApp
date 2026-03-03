@@ -1,4 +1,4 @@
-//OOPSBannerApp UC4 - BannerApp-Array_Loop
+//OOPSBannerApp UC5 - BannerApp-Array_Init
 public class OOPSBannerApp{ 
        public static void main(String[] arg){
 		    String[] lines={
