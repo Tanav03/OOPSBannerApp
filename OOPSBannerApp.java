@@ -1,4 +1,3 @@
-//OOPSBannerApp UC5 - BannerApp-Array_Init
 public class OOPSBannerApp{
 	public static String[] getOPattern(){
 		return new String[]{
